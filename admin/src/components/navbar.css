@@ -1,0 +1,51 @@
+.navbar {
+    width: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .hamburger-menu {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav-items {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    
+  }
+  
+  .nav-item {
+    flex: 1; /* Make each button occupy the full width */
+    margin: 0; /* Remove default margin */
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center; /* Center text within buttons */
+  }
+  
+  .nav-item.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .nav-item:not(.active) {
+    background-color: #fff;
+    color: #007bff;
+  }
+  
+  /* Responsive Styles (if needed) */
+  @media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+  }
